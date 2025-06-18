@@ -6,6 +6,11 @@
   margin: 0;
   font-family: "DM Sans", sans-serif;
 }
+::selection {
+  background-color: #fff; /* blue background */
+  color: #859866;              /* white text */
+}
+
 body{
   background-color: #FFFFFF;
 }
