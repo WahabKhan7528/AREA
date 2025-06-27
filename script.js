@@ -1,4 +1,8 @@
-  const images = [
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});
+const images = [
     'images/bigpicture1.avif',
     'images/bigpicture2.avif',
     'images/bigpicture3.avif'
